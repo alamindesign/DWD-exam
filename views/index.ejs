@@ -21,11 +21,13 @@
                 </tr>
             </thead>
             <tbody>
-                <% data.forEach(function(customer) { %>
+                <% data.forEach(function(employee) { %>
                     <tr>
-                      <td><%= customer.name %></td>
-                      <td><%= customer.email %></td>
-                      <td><%= customer.phone %></td>
+                      <td><%= employee.name %></td>
+                      <td><%= employee.department %></td>
+                      <td><%= employee.salary %></td>
+                      <td><%= employee.designation %></td>
+                      <td><%= employee.employee_type %></td>
                     </tr>
                   <% }); %>
             </tbody>

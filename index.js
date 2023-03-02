@@ -15,7 +15,7 @@ client.connect(function(err) {
 
   // Set up Express.js server
   app.listen(3000, function() {
-    console.log('Server listening on port 3000');
+    console.log('the server running http://localhost:3000');
   });
 });
 
